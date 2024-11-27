@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 def admin_haqida(request):
     return render(request, 'index2.html')

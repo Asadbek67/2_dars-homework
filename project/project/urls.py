@@ -18,6 +18,8 @@ from django.contrib import admin
 from django.urls import path
 from .views import (avto_sahifa, admin_haqida, telefonlar, WOMEN_shops, books_shoops, man_shoops,
                     bosh_sahifa1,bosh_sahifa2, bosh_sahifa3, bosh_sahifa4 )
+from .views import (avto_sahifa, admin_haqida,telefonlar,WOMEN_shops,books_shoops,
+                    man_shoops,bosh_sahifa1,bosh_sahifa2,bosh_sahifa3,bosh_sahifa4)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
